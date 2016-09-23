@@ -1,8 +1,9 @@
 #!/bin/bash
 #soft link for vim
 
+sudo apt-get install vim subversion tmux
 #PACAKGE=("texlive" "vim" "subversion" "openssh-server")
-TARGET=(".vimrc" ".ssh")
+TARGET=(".vimrc" ".tmux.conf")
 
 for t in ${TARGET[@]}; do
     rm -rf $HOME/$t
@@ -10,7 +11,3 @@ for t in ${TARGET[@]}; do
     echo $t" is changed"
 done
 
-sudo apt-get install vim subversion
-
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
-vim +BundleInstall +qall
