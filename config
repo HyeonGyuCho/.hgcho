@@ -1,7 +1,0 @@
-Host snsd
-    HostName snsd.skku.edu
-    User hgcho
-
-Host linux
-    HostName 115.145.211.195
-    User hgcho

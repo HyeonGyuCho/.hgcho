@@ -3,7 +3,7 @@
 
 sudo apt-get install vim subversion tmux
 #PACAKGE=("texlive" "vim" "subversion" "openssh-server")
-TARGET=(".vimrc" ".tmux.conf")
+TARGET=(".vimrc" ".tmux.conf" ".ssh")
 
 for t in ${TARGET[@]}; do
     rm -rf $HOME/$t
