@@ -21,6 +21,7 @@ set showcmd
 set mouse=a
 highlight CursorLine term=bold cterm=bold guibg=Grey40
 syntax on
+set tags=./tags,tags
 
 set laststatus=2
 set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
