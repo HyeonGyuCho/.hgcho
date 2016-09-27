@@ -1,7 +1,7 @@
 #!/bin/bash
 #soft link for vim
 
-sudo apt-get install vim subversion tmux
+sudo apt-get install vim subversion tmux exuberant-ctags
 #PACAKGE=("texlive" "vim" "subversion" "openssh-server")
 TARGET=(".vimrc" ".tmux.conf" ".ssh")
 
