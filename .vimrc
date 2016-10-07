@@ -5,7 +5,8 @@ set cindent
 set ignorecase
 set hlsearch
 set background=dark
-colorscheme elflord 
+colorscheme elflord
+set t_Co=256
 set ruler
 set title
 set wrap
